@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type='image/x-icon' href="img/icons/favicon.ico">
+    <meta name="format-detection" content="telephone=no">
+    <title>Telegram</title>
+  </head>
+  <body>
+    <header>
+      <section class="icons">
+        <svg class="icons__icon icons__collapse">
+          <line x1="3" y1="13.5" x2="14" y2="13.5" stroke-width="2"
+            stroke="#ababab"></line>
+        </svg>
+        <svg class="icons__icon icons__window">
+          <line x1="4.5" y1="6.5" x2="12" y2="6.5" fill="none"
+            stroke-width="1.8"
+            stroke="#ababab"></line>
+          <line x1="12" y1="5.8" x2="12" y2="12.5" fill="none"
+            stroke-width="1.5"
+            stroke="#ababab"></line>
+          <rect x="3" y="9" width="6" height="5.5" fill="none"
+            stroke-width="1.8" stroke="#ababab"></rect>
+        </svg>
+        <svg class="icons__icon icons__close">
+          <line x1="5.5" y1="5.5" x2="14.5" y2="14.5" stroke-width="1.8"
+            stroke="#ababab"></line>
+          <line x1="14.5" y1="5.5" x2="5.5" y2="14.5" stroke-width="1.8"
+            stroke="#ababab"></line>
+        </svg>
+      </section>
+
+    </header>
+    <main>
+      <section class="popup-menu">
+        <div class="popup-menu__header">
+          <a href="#"><img class="popup-menu__pic" src="img/users/felix.jpg"></a>
+          <p class="popup-menu__name">Felix</p>
+          <p class="popup-menu__number">+7 999 666 66 66</p>
+          <a href="#"><img class="popup-menu__saved" src="img/icons/saved.png"></a>
+        </div>
+        <ul class="popup-menu__list">
+          <li class="popup-menu__list-item">
+            <img src="img/icons/menu_group.png" class="popup-menu__list-icon">
+            <h3 class="popup-menu__list-option">New Group</h3>
+          </li>
+          <li class="popup-menu__list-item">
+            <img src="img/icons/menu_channel.png" class="popup-menu__list-icon">
+            <h3 class="popup-menu__list-option">New Channel</h3>
+          </li>
+          <li class="popup-menu__list-item">
+            <img src="img/icons/menu_contact.png" class="popup-menu__list-icon">
+            <h3 class="popup-menu__list-option">Contacts</h3>
+          </li>
+          <li class="popup-menu__list-item">
+            <img src="img/icons/menu_call.png" class="popup-menu__list-icon">
+            <h3 class="popup-menu__list-option">Calls</h3>
+          </li>
+          <li class="popup-menu__list-item">
+            <img src="img/icons/menu_settings.png" class="popup-menu__list-icon">
+            <h3 class="popup-menu__list-option">Settings</h3>
+          </li>
+          <li class="popup-menu__list-item">
+            <img src="img/icons/menu_night.png" class="popup-menu__list-icon">
+            <h3 class="popup-menu__list-option">Night Mode</h3>
+            <img class="popup-menu__list-switch">
+          </li>
+        </ul>
+        <a href="#"><div class="popup-menu__info">Telegram Desktop</div></a>
+        <div class="popup-menu__version"><a href="#">Version 2.1.12</a> - <a
+            href="#">About</a></div>
+      </section>
+      <section class="blur"></section>
+
+      <section class="chat-list">
+
+        <nav class="chat-list__nav">
+          <a href="#"><svg class="chat-list__burger-menu">
+              <line x1="4" y1="3" x2="22" y2="3" stroke-width="2"
+                stroke="#ababab"></line>
+              <line x1="4" y1="8" x2="22" y2="8" stroke-width="2"
+                stroke="#ababab"></line>
+              <line x1="4" y1="13" x2="22" y2="13" stroke-width="2"
+                stroke="#ababab"></line>
+            </svg></a>
+          <div class="chat-list__search">
+            <input class="chat-list__search-input" placeholder="Search"
+              type="text">
+          </div>
+        </nav>
+        <ul>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/saved-messages.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Saved Messages</h3>
+                <p class="chat-list__message"><span
+                    class="chat-list__highlight">You:
+                  </span>Top 10 action movies about cats:
+                  https://www.bestcatmovies.com/10-action-movies</p>
+              </div>
+              <div class="chat-list__date">Mon</div>
+              <img class="chat-list__pin" src="img/icons/pin.svg">
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic" src="img/users/mom.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Mom</h3>
+                <p class="chat-list__message"><span
+                    class="chat-list__highlight">Where are you? I'm worried!</span></p>
+              </div>
+              <div class="chat-list__date">22:15</div>
+              <div class="chat-list__new">1</div>
+            </a>
+
+
+          </li>
+          <li>
+            <a class="chat-list__chat chat-list__chat_selected" href="#">
+              <img class="chat-list__pic"
+                src="img/users/tommy.jpeg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Tommy</h3>
+                <p class="chat-list__message chat-list__message_selected"> oooh
+                  I'm SO
+                  DRUNK.... too much
+                  valerian tonight
+                  maaan</p>
+              </div>
+              <div class="chat-list__date chat-list__date_selected">22:03</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/guy.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Weird Guy</h3>
+                <p class="chat-list__message"><span
+                    class="chat-list__highlight">MEOOOOWWWWFEWWWWWEEEEW!!!!</span></p>
+              </div>
+              <div class="chat-list__date">21:58</div>
+              <div class="chat-list__new">3</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/honey.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Honey</h3>
+                <p class="chat-list__message"><span
+                    class="chat-list__highlight">You:
+                  </span>LOVE YOU TOO SWEETIE!!</p>
+              </div>
+              <div class="chat-list__date">19:56</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/gang.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name chat-list__group-name"><img
+                    class="chat-list__group"
+                    src="img/icons/group.png">Street Gang</h3>
+                <p class="chat-list__message"><span
+                    class="chat-list__highlight">One-eyed
+                    Jack: </span>Today we're eating all trash we can find, no
+                  one
+                  can stop us!!</p>
+              </div>
+              <div class="chat-list__date">18:26</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/boss.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Boss</h3>
+                <p class="chat-list__message"> More rats are to be caught!
+                  You're
+                  missing deadlines again!</p>
+              </div>
+              <div class="chat-list__date">10:42</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/man.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Slave</h3>
+                <p class="chat-list__message">Felix, please stop stealing food
+                  from the table.... I'm feeding you 4 times a day</p>
+              </div>
+              <div class="chat-list__date">9:31</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/fred.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Fat Fred</h3>
+                <p class="chat-list__message">I'd come to your place but don't
+                  wanna get out of bed</p>
+              </div>
+              <div class="chat-list__date">Mon</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/grandpa.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Grandpa Jack</h3>
+                <p class="chat-list__message">Long time ago I caught such a big
+                  rat you couldn't even eat it</p>
+              </div>
+              <div class="chat-list__date">Mon</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/someone.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Who is this guy?</h3>
+                <p class="chat-list__message">You owe me 10 packs of cat food!!
+                  Stop ignoring my messages!!!!</p>
+              </div>
+              <div class="chat-list__date">Mon</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/bred.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Bred</h3>
+                <p class="chat-list__message">Today someone tried to eat me
+                  again((</p>
+              </div>
+              <div class="chat-list__date">Sun</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/leo.png">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Leo</h3>
+                <p class="chat-list__message">RRRRAAAWWRRRRRRR</p>
+              </div>
+              <div class="chat-list__date">Sun</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/boris.png">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Boris from Kitekat</h3>
+                <p class="chat-list__message">Just don't tell anyone that I
+                  actually like Whiskas more than Kitekat, no one should know</p>
+              </div>
+              <div class="chat-list__date">Sat</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/johnny.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Johnny</h3>
+                <p class="chat-list__message">I forgot where I live Felix
+                  help!!!</p>
+              </div>
+              <div class="chat-list__date">Fri</div>
+            </a>
+          </li>
+          <li>
+            <a class="chat-list__chat" href="#">
+              <img class="chat-list__pic"
+                src="img/users/simon.jpg">
+              <div class="chat-list__message-container">
+                <h3 class="chat-list__name">Nephew Simon</h3>
+                <p class="chat-list__message">Thank you unkle Felix! You're the
+                  best!!</p>
+              </div>
+              <div class="chat-list__date">Fri</div>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+      <section class="chat-window">
+        <div class="user-info">
+          <h3 class="user-info__name">Tommy</h3>
+          <p class="user-info__time">last seen 2 minutes ago</p>
+          <div class="user-info__icons">
+            <a href="#"><img class="user-info__icon user-info__call" width="30"
+                src="img/icons/call.png"></a>
+            <a href="#"><img class="user-info__icon user-info__search"
+                width="30" src="img/icons/search.png"></a>
+            <a href="#"><img class="user-info__icon user-info__profile"
+                width="30" src="img/icons/profile.png"></a>
+            <a href="#"><img class="user-info__icon user-info__more" width="4"
+                src="img/icons/more.png"></a>
+          </div>
+        </div>
+        <div class="chat-window__date">July 21</div>
+        <div class="message">
+          <img class="message__pic" src="img/users/tommy.jpeg">
+          <div class="message__message-box message-box-3">
+            <p class="message__text">HEY MAAAAN!!! WANNA PARTY TONIGHT?????
+              MEEOOOOOOOOWWW</p>
+            <svg class="message__svg">
+              <polygon points="0,28 2,28 3,28 5,27 6,26 7,25 8,24 13,18 13,28"
+                fill="#fff"></polygon>
+            </svg>
+            <div class="message__time_other">15:20</div>
+          </div>
+        </div>
+        <div class="message">
+          <img class="message__pic" src="img/users/felix.jpg">
+          <div class="message__message-box message-box-4">
+            <p class="message__text">Sorry man, have to work today. My boss will
+              kill me.</p>
+            <svg class="message__svg">
+              <polygon points="0,28 2,28 3,28 5,27 6,26 7,25 8,24 13,18 13,28"
+                fill="#effdde"></polygon>
+            </svg>
+            <div class="message__time">15:21</div>
+            <img class="message__received" src="img/icons/received.png" width="18">
+          </div>
+        </div>
+        <div class="message">
+          <img class="message__pic" src="img/users/tommy.jpeg">
+          <div class="message__message-box message-box-5">
+            <p class="message__text">((((</p>
+            <svg class="message__svg">
+              <polygon points="0,28 2,28 3,28 5,27 6,26 7,25 8,24 13,18 13,28"
+                fill="#fff"></polygon>
+            </svg>
+            <div class="message__time_other">15:21</div>
+          </div>
+        </div>
+        <div class="message">
+          <img class="message__pic" src="img/users/felix.jpg">
+          <div class="message__message-box message-box-6">
+            <p class="message__text">*sad meow*</p>
+            <svg class="message__svg">
+              <polygon points="0,28 2,28 3,28 5,27 6,26 7,25 8,24 13,18 13,28"
+                fill="#effdde"></polygon>
+            </svg>
+            <div class="message__time">15:21</div>
+            <img class="message__received" src="img/icons/received.png" width="18">
+          </div>
+        </div>
+        <div class="message">
+          <img class="message__pic" src="img/users/tommy.jpeg">
+          <div class="message__message-box message-box-7">
+            <p class="message__text">at least let's watch a movie tomorrow, I
+              wanna see the new one with Johny Catswill</p>
+            <svg class="message__svg">
+              <polygon points="0,28 2,28 3,28 5,27 6,26 7,25 8,24 13,18 13,28"
+                fill="#fff"></polygon>
+            </svg>
+            <div class="message__time_other">15:23</div>
+          </div>
+        </div>
+        <div class="message">
+          <img class="message__pic" src="img/users/felix.jpg">
+          <div class="message__message-box message-box-8">
+            <p class="message__text">Yeah, great. I'll catch up with you later
+              then </p>
+            <svg class="message__svg">
+              <polygon points="0,28 2,28 3,28 5,27 6,26 7,25 8,24 13,18 13,28"
+                fill="#effdde"></polygon>
+            </svg>
+            <div class="message__time">15:24</div>
+            <img class="message__received" src="img/icons/received.png" width="18">
+          </div>
+        </div>
+        <div class="message">
+          <img class="message__pic" src="img/users/tommy.jpeg">
+          <div class="message__message-box message-box-9">
+            <p class="message__text">maan the party is crazy!!</p>
+            <svg class="message__svg">
+              <polygon points="0,28 2,28 3,28 5,27 6,26 7,25 8,24 13,18 13,28"
+                fill="#fff"></polygon>
+            </svg>
+            <div class="message__time_other">22:02</div>
+          </div>
+        </div>
+        <div class="message">
+          <img class="message__pic" src="img/users/felix.jpg">
+          <div class="message__message-box message-box-10">
+            <p class="message__text">Hey don't drink too much, we have plans
+              tomorrow, remember?</p>
+            <svg class="message__svg">
+              <polygon points="0,28 2,28 3,28 5,27 6,26 7,25 8,24 13,18 13,28"
+                fill="#effdde"></polygon>
+            </svg>
+            <div class="message__time">21:05</div>
+            <img class="message__received" src="img/icons/received.png" width="18">
+          </div>
+        </div>
+        <div class="message">
+          <img class="message__pic" src="img/users/tommy.jpeg">
+          <div class="message__message-box message-box-11">
+            <p class="message__text">come on you know me I can control myself</p>
+            <svg class="message__svg">
+              <polygon points="0,28 2,28 3,28 5,27 6,26 7,25 8,24 13,18 13,28"
+                fill="#fff"></polygon>
+            </svg>
+            <div class="message__time_other">21:08</div>
+          </div>
+        </div>
+        <div class="message">
+          <img class="message__pic" src="img/users/felix.jpg">
+          <div class="message__message-box message-box-12">
+            <p class="message__text">Exactly, I know you</p>
+            <svg class="message__svg">
+              <polygon points="0,28 2,28 3,28 5,27 6,26 7,25 8,24 13,18 13,28"
+                fill="#effdde"></polygon>
+            </svg>
+            <div class="message__time">21:09</div>
+            <img class="message__received" src="img/icons/received.png" width="18">
+          </div>
+        </div>
+        <div class="message">
+          <img class="message__pic" src="img/users/felix.jpg">
+          <div class="message__message-box message-box-13">
+            <p class="message__text">*skeptical meow*</p>
+            <svg class="message__svg">
+              <polygon points="0,28 2,28 3,28 5,27 6,26 7,25 8,24 13,18 13,28"
+                fill="#effdde"></polygon>
+            </svg>
+            <div class="message__time">21:09</div>
+            <img class="message__received" src="img/icons/received.png" width="18">
+          </div>
+        </div>
+        <div class="message">
+          <img class="message__pic" src="img/users/tommy.jpeg">
+          <div class="message__message-box message-box-14">
+            <p class="message__text">it's gonna be FINE!!</p>
+            <svg class="message__svg">
+              <polygon points="0,28 2,28 3,28 5,27 6,26 7,25 8,24 13,18 13,28"
+                fill="#fff"></polygon>
+            </svg>
+            <div class="message__time_other">21:10</div>
+          </div>
+        </div>
+        <div class="message last-message">
+          <img class="message__pic" src="img/users/tommy.jpeg">
+          <div class="message__message-box message-box-15">
+            <p class="message__text">oooh I'm SO
+              DRUNK.... too much
+              valerian tonight
+              maaan</p>
+            <svg class="message__svg">
+              <polygon width="10" points="0,28 2,28 3,28 5,27 6,26 7,25 8,24
+                13,18 13,28"
+                fill="#fff"></polygon>
+            </svg>
+            <div class="message__time_other">22:03</div>
+          </div>
+        </div>
+
+        <div class="input-area">
+          <a href="#"><img class="input-area__attach" src="img/icons/attach.png"
+              width="25"></a>
+          <input class="input-area__input" placeholder="Write a message"
+            type="text" active>
+          <div class="input-area__icons">
+            <a href="#"><img class="input-area__emoji" src="img/icons/emoji.png"
+                width="28"></a>
+            <a href="#"><img class="input-area__voice" src="img/icons/voice.png"
+                width="19" height="25"></a>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+
+  </body>
+  <script src="script.js"></script>
+</html>
