@@ -264,7 +264,7 @@ main {
   right: 0;
   top: 35px;
   width: 12px;
-  padding: 0 10px;
+  padding: 0 10px 13px;
   background-color: #fff;
 }
 
@@ -277,6 +277,17 @@ main {
 }
 
 .chat-list__new {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 27px;
+  background-color: #fff;
+  width: 50px;
+  height: 30px;
+}
+
+.chat-list__new-text {
   background-color: #40a7e3;
   width: 19px;
   height: 19px;
@@ -287,12 +298,20 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  right: 8px;
-  top: 27px;
+  position: relative;
+  left: 15px;
+  top: -10px;
+}
+
+.chat-list__chat:hover .chat-list__new{
+  background-color: #f1f1f1;
 }
 
 .chat-list__chat:hover {
+  background-color: #f1f1f1;
+}
+
+.chat-list__chat:hover .chat-list__pin {
   background-color: #f1f1f1;
 }
 
